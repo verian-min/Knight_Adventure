@@ -1,0 +1,3 @@
+Вау, как тут круто!
+
+Console.Write("Hello World!");
