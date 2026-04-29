@@ -1,1 +1,13 @@
-Console.WriteLine("Привет!");
+// Класс для нахождения квадратного корня
+public class SquareRootFinder
+{
+    // Метод для нахождения квадратного корня числа
+    public double FindSquareRoot(double number)
+    {
+        if (number < 0)
+        {
+            throw new ArgumentException("Число не может быть отрицательным.");
+        }
+        return Math.Sqrt(number);
+    }
+}
